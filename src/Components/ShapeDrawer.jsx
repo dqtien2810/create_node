@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import LineShape from "./LineShape";
-import "../App.css";
+import "./Shape.css";
 
 function ShapeDrawer() {
   const [shapes, setShapes] = useState([]);
