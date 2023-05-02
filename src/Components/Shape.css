@@ -1,0 +1,25 @@
+.ShapeWithLine {
+  position: absolute;
+}
+
+.line {
+  position: absolute;
+  background-color: black;
+  z-index: 10000;
+}
+.view-shape {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  align-items: center;
+}
+.view_right-click {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
